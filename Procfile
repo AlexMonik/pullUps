@@ -1,1 +1,1 @@
-web: sh -c 'cd ./app/ && python main.py'
+web: sh -c 'cd ./app/ && python main.py runserver 0.0.0.0:$PORT'
