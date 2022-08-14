@@ -2,7 +2,9 @@ from aiogram.dispatcher import Dispatcher
 from aiogram.utils.executor import start_webhook
 from aiogram import Bot, types
 from misc import settings
+from dotenv import load_dotenv
 
+load_dotenv()
 bot = Bot(token=settings.TOKEN)
 dp = Dispatcher(bot)
 
