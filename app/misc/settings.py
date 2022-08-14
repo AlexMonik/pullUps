@@ -9,4 +9,4 @@ WEBHOOK_URL = f'{WEBHOOK_HOST}{WEBHOOK_PATH}'
 
 # webserver settings
 WEBAPP_HOST = getenv('WEBAPP_HOST', default='0.0.0.0')
-WEBAPP_PORT = getenv('WEBAPP_PORT', default=8001)
+WEBAPP_PORT = getenv('PORT')
