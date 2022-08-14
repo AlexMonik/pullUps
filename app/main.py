@@ -10,7 +10,7 @@ dp = Dispatcher(bot)
 
 
 async def on_startup(dispatcher):
-    logger.info(f'start app:\n{settings.TOKEN=}\n{settings.WEBHOOK_URL=}\n{settings.WEBHOOK_PATH=}')
+    logger.info(f'start app:\n{settings.TOKEN=}\n{settings.WEBHOOK_URL=}\n{settings.WEBHOOK_PATH=}\n{settings.WEBAPP_HOST=}')
     await bot.set_webhook(settings.WEBHOOK_URL, drop_pending_updates=True)
 
 
